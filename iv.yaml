@@ -1,2 +1,1 @@
-entidad:
-	-src/cita.py
+entidad: src/cita.py
