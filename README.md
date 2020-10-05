@@ -22,4 +22,4 @@ Fecha, Hora, Tipo de pelado, Tiempo empleado, Precio.
 
 ## Autor
 
-[Javier Prieto](https://github.com/JaviPrieto)
+[Javier Prieto](https://github.com/JaviPrieto) 
