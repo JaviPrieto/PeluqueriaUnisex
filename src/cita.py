@@ -18,5 +18,5 @@ class Cita:
        
 
 
-cita = Cita("16","12:00","corte pelo","15","10")
+cita = Cita("16","12:00","corte pelo","15","10") 
 cita.resumenCita()
