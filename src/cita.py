@@ -1,4 +1,7 @@
+# -*- coding: utf-8 -*-
+
 class Cita:
+    # Define una cita en base a la fecha, hora, pelado, tiempo empleado y precio
 
     def __init__(self, fecha,hora,pelado,tiempo,precio):
         self.fecha = fecha
@@ -15,8 +18,29 @@ class Cita:
         print("Tiempo empleado: " + self.tiempo + "min")
         print("Precio: " + self.precio + "euros")
 
-       
+    ###################################################################################
 
+    def getFecha(self):
+        return self.fecha
 
-cita = Cita("16","12:00","corte pelo","15","10") 
-cita.resumenCita()
+    ###################################################################################
+
+    def getHora(self):
+        return self.hora
+
+    ###################################################################################
+
+    def getPelado(self):
+        return self.pelado
+
+    ###################################################################################
+
+    def getTiempo(self):
+        return self.tiempo
+
+    ###################################################################################
+
+    def getPrecio(self):
+        return self.precio
+
+    ###################################################################################
