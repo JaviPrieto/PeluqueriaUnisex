@@ -14,12 +14,14 @@ class Cita:
 
     def resumenCita(self):
         """Imprime datos de la cita por pantalla."""
+        print("######### DETALLES DE SU CITA ###############")
         print("ID: " + self.id)
         print("Fecha: " + self.fecha)
         print("Hora: " + self.hora)
         print("Tipo de pelado: " + self.pelado)
         print("Tiempo empleado: " + self.tiempo + "min")
-        print("Precio: " + self.precio + "euros")
+        print("Precio: " + self.precio + "euros")        
+        print("#############################################")
 
     ###################################################################################
 
