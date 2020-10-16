@@ -7,4 +7,6 @@ import pytest
 
 @pytest.fixture
 def cita():
-    return Cita("UnID")
+    return Cita("UnID","fecha","hora","pelado","tiempo","precio")
+
+    
