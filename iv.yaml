@@ -1,5 +1,5 @@
 entidad: src/cita.py
 lenguaje: python
 test: tests/test_cita.py
-taskfile: 
+taskfile: Makefile
 	 
