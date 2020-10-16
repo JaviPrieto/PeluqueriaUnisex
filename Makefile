@@ -6,7 +6,3 @@ main: src/main.py
 test: tests/test_cita.py
 	$(PY) tests/test_cita.py
 
-.PHONY: clean
-
-clean:
-	rm -rf *.o
