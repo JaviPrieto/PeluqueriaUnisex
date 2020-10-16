@@ -19,8 +19,8 @@ class Cita:
         print("Fecha: " + self.fecha)
         print("Hora: " + self.hora)
         print("Tipo de pelado: " + self.pelado)
-        print("Tiempo empleado: " + self.tiempo + "min")
-        print("Precio: " + self.precio + "euros")        
+        print("Tiempo empleado: " + self.tiempo + " min")
+        print("Precio: " + self.precio + " euros")        
         print("#############################################")
 
     ###################################################################################
