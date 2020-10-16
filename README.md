@@ -20,6 +20,24 @@ Fecha, Hora, Tipo de pelado, Tiempo empleado, Precio.
 - [¿Por qué he usado estas herramientas?](./docs/herramientas.md)
 - [¿Cómo he configurado git?](./docs/configuracion.md)
 
+## Comandos
+
+### Ejecución de la función main
+
+Esto ejecuta el archivo main.py que contiene la función main de la app en la que se muestran los datos de una cita de un cliente.
+
+```bash
+make main
+```
+
+### Ejecución de los tests
+
+El proyecto utiliza para la ejecución de los tests [pytest](https://docs.pytest.org/en/stable/).
+
+```bash
+make test
+```
+
 ## Autor
 
 [Javier Prieto](https://github.com/JaviPrieto) 
