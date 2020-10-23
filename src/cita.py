@@ -9,7 +9,7 @@ class Cita:
         self.hora = hora
         self.pelado = pelado
         self.tiempo = tiempo
-        self.precio = precio
+        self.precio = precio 
         
 
     def resumenCita(self):
@@ -22,6 +22,28 @@ class Cita:
         print("Tiempo empleado: " + self.tiempo + " min")
         print("Precio: " + self.precio + " euros")        
         print("#############################################")
+
+    def cogerCita(self,fecha,hora,pelado):
+        self.fecha = fecha
+        self.hora = hora 
+        self.pelado = pelado 
+
+        if (pelado == "corte hombre"):
+            self.tiempo = "15"
+            self.precio = "8"
+        
+        elif (pelado == "corte barba"):
+            self.tiempo = "10"
+            self.precio = "5"
+        
+        elif (pelado == "corte mujer"):
+            self.tiempo = "30"
+            self.precio = "12"
+
+        else:
+            self.tiempo = "15"
+            self.precio = "10"
+        
 
     ###################################################################################
 
