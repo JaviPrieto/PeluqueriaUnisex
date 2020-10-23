@@ -37,6 +37,8 @@ Estas son las historias de usuario abiertas hasta el momento:
 - [ ] [HU1: Saber la hora de una cita](https://github.com/JaviPrieto/PeluqueriaUnisex/issues/2)
 - [ ] [HU2: Saber el precio de un pelado](https://github.com/JaviPrieto/PeluqueriaUnisex/issues/3)
 - [ ] [HU3: Saber los datos de una cita](https://github.com/JaviPrieto/PeluqueriaUnisex/issues/6)
+- [ ] [HU4: Como usuario quiero coger una cita](https://github.com/JaviPrieto/PeluqueriaUnisex/issues/14)
+
 
 Explicación de las historias de usuario y milestones 
 
