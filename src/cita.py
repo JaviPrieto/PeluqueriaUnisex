@@ -11,7 +11,7 @@ class Cita:
         self.tiempo = tiempo
         self.precio = precio 
         
-
+    #HU3: Saber los datos de una cita
     def resumenCita(self):
         """Imprime datos de la cita por pantalla."""
         print("######### DETALLES DE SU CITA ###############")
@@ -23,6 +23,7 @@ class Cita:
         print("Precio: " + self.precio + " euros")        
         print("#############################################")
 
+    #HU4: Como usuario quiero coger una cita
     def cogerCita(self,fecha,hora,pelado):
         self.fecha = fecha
         self.hora = hora 
@@ -56,7 +57,7 @@ class Cita:
         return self.fecha
 
     ###################################################################################
-
+    #HU1 : Saber la hora de una cita
     def getHora(self):
         return self.hora
 
@@ -71,7 +72,7 @@ class Cita:
         return self.tiempo
 
     ###################################################################################
-
+    #HU2 : Saber el precio de un pelado
     def getPrecio(self):
         return self.precio
 
