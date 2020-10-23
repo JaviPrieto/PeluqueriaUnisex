@@ -15,12 +15,9 @@ Fecha, Hora, Tipo de pelado, Tiempo empleado, Precio.
 
 He decidido hacer el proyecto sobre una peluquería porque mi prima tiene una, y hace tiempo me dijo que si yo le podía hacer un software para ella guardar ahí todo lo relacionado con los clientes y las citas, el caso es que no lo estoy haciendo por ella pero sí por saber si soy capaz de desarrollar algo por el estilo.
 
-Los pasos a seguir para desplegar una aplicación de este tipo es:
+Los pasos a seguir para desplegar la aplicación son:
 
-- Crear las clases pertinentes, Cita.py, main.py, Hora.py
-- Ver la relación que tienen unas clases con las otras.
-- Escribir los métodos que normalmente utilizaremos para coger citas, modificar o eliminar.
-- Automatizar todo el proceso, porque al cabo de un tiempo será todo igual.
+- [Pasos a seguir](./docs/pasos.md)
 
 ## Herramientas utilizadas
 
