@@ -44,6 +44,12 @@ class Cita:
         else:
             self.tiempo = "15"
             self.precio = "10"
+
+    
+    #HU5: Como usuario quiero modificar la fecha y hora de la cita
+    def modificarCita(self,fecha,hora):
+        self.fecha = fecha
+        self.hora = hora
         
 
     ###################################################################################
