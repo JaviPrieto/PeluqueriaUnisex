@@ -38,6 +38,7 @@ Estas son las historias de usuario abiertas hasta el momento:
 - [ ] [HU2: Saber el precio de un pelado](https://github.com/JaviPrieto/PeluqueriaUnisex/issues/3)
 - [ ] [HU3: Saber los datos de una cita](https://github.com/JaviPrieto/PeluqueriaUnisex/issues/6)
 - [ ] [HU4: Como usuario quiero coger una cita](https://github.com/JaviPrieto/PeluqueriaUnisex/issues/14)
+- [ ] [HU5: Como usuario quiero modificar una cita](https://github.com/JaviPrieto/PeluqueriaUnisex/issues/15)
 
 
 Explicación de las historias de usuario y milestones 
