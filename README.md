@@ -38,6 +38,10 @@ Estas son las historias de usuario abiertas hasta el momento:
 - [ ] [HU2: Saber el precio de un pelado](https://github.com/JaviPrieto/PeluqueriaUnisex/issues/3)
 - [ ] [HU3: Saber los datos de una cita](https://github.com/JaviPrieto/PeluqueriaUnisex/issues/6)
 
+Explicación de las historias de usuario y milestones 
+
+- [HU y milestones](./docs/hu-milestones.md)
+
 ## Comandos
 
 ### Ejecución de la función main
