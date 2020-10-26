@@ -23,7 +23,7 @@ class Cita:
         print("Precio: " + self.precio + " euros")        
         print("#############################################")
 
-    #HU4: Como usuario quiero coger una cita
+    #HU4: Como usuario quiero coger una cita 
     def cogerCita(self,fecha,hora,pelado):
         self.fecha = fecha
         self.hora = hora 
