@@ -78,7 +78,7 @@ class Cita:
         return self.tiempo
 
     ###################################################################################
-    #HU2 : Saber el precio de un pelado
+    #HU2 : Saber el precio de un pelado 
     def getPrecio(self):
         return self.precio
 
