@@ -20,6 +20,7 @@ En este documento se plantea de forma general la implementación del servicio de
 6. Creación de HUs o Historias de Usuario.
 7. Creación de Milestones.
 8. Creación de Issues asociadas a los Milestones.
+9. Modificar hito-1.md y hacer un PR.
 
 ## Pasos realizados en el hito2
 
@@ -27,5 +28,6 @@ En este documento se plantea de forma general la implementación del servicio de
 2. Creación de un fichero de tests.
 3. Creación de un fichero taskfile que nos ejecute las tareas.
 4. Actualizar el fichero iv.yaml y el README.md
+5. Modificar hito-2.md y hacer un PR.
 
 
