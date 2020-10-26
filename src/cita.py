@@ -11,7 +11,7 @@ class Cita:
         self.tiempo = tiempo
         self.precio = precio 
         
-    #HU3: Saber los datos de una cita
+    #HU3: Saber los datos de una cita 
     def resumenCita(self):
         """Imprime datos de la cita por pantalla."""
         print("######### DETALLES DE SU CITA ###############")
