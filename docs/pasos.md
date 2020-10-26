@@ -2,18 +2,30 @@
 
 En este documento se plantea de forma general la implementación del servicio de una peluquería.
 
-## Modelando entidades
+## Pasos realizados en el hito 0
 
-Lo primero es crear estructuras de datos que representen entidades de información (clientes,citas,...) para empezar a darle forma al proyecto.
+1. Crear el repositorio.
+2. Realizar fork del repositorio de la asignatura.
+3. Realizar la configuración inicial.
+4. Modificación en el repositorio de los ficheros README.md, gitignore y LICENSE.
+5. Modificar hito-0.md y hacer un PR.
 
-## Documentar y mantener
+## Pasos realizados en el hito 1
 
-Hay que ir documentando todos los pasos que vamos haciendo, explicando el por qué y el interés en nuestra aplicación. Y mantener el código, siempre que añadas más para no ir pisando lo que ya tenemos programado.
+1. Crear un documento iv.yaml y declarar la entidad actual del proyecto.
+2. Crear la carpeta docs para guardar archivos de documentación y similares.
+3. Crear la carpeta src para guardar archivos con código.
+4. Crear una clase dentro de la carpeta src.
+5. Ir actualizando y explicando el proyecto en el README.
+6. Creación de HUs o Historias de Usuario.
+7. Creación de Milestones.
+8. Creación de Issues asociadas a los Milestones.
 
-## Tests
+## Pasos realizados en el hito2
 
-Hay que testear las clases que vamos programando, y automatizar el proceso de test para que cuando se añada nuevo código en las clases se testeen solas y veamos que están correctas.
+1. Investigar las tecnologías que deben usarse en este hito.
+2. Creación de un fichero de tests.
+3. Creación de un fichero taskfile que nos ejecute las tareas.
+4. Actualizar el fichero iv.yaml y el README.md
 
-## Despliegue en contenedor
 
-Lo siguiente es aislar la ejecución de la aplicación de forma que sea mucho más fácil desplegarla, incluyendo los datos y el estado en el que se encuentre en un momento determinado.
