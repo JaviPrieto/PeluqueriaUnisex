@@ -63,7 +63,7 @@ class Cita:
         return self.fecha
 
     ###################################################################################
-    #HU1 : Saber la hora de una cita
+    #HU1 : Saber la hora de una cita 
     def getHora(self):
         return self.hora  
 
