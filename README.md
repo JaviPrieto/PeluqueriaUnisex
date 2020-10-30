@@ -37,6 +37,25 @@ He utilizado un archivo makefile que ejecuta las funciones **main.py** y **test.
 
 - *Nos guarda los comandos de compilación con todos sus parámetros para encontrar librerías, etc*. No tendremos que escribir largas líneas de compilación con montones de opciones que debemos saber de memoria o, al menos, sólo tendremos que hacerlo una vez
 
+## Biblioteca de aserciones
+
+Python, a base de no querer extender la sintaxis, acaba añadiendo conceptos y construcciones sintácticas para temas inesperados, como por ejemplo los objetos que se crean en la fase de setup de los tests, que se denominan fixtures, y tienen su sintaxis específica.
+
+En algunas ocasiones tal vez tengamos pruebas que comiencen desde cierto estado, este estado puede ser tener datos en una base de datos, tener archivos en alguna carpeta, o tal vez simplemente tener el objeto correcto como entrada a la función; es ahí donde las fixtures son útiles.
+
+Lo primero que hay que notar es que @pytest.fixture es usado como decorador de… ¿¡una función!? Sí, así es, una fixture no es nada más que una función cuyo valor de retorno debe ser el valor que queremos que esa fixture tenga.
+
+Cuando ejecutamos pytest, este tratará de resolverlas antes de que se ejecute cualquier prueba que las use, y una ves que estas estén listas, los métodos de prueba reciben los valores especificados en cada método asociado.
+
+**fixture** es una orden de pytest, y es un decorador, por eso lleva la arroba delante. 
+**pytest** es un framework para Python que ofrece la recolección automática de los tests, aserciones simples, soporte para fixtures, debugeo y mucho más…
+
+Escribiendo nuestros tests:
+
+Para escribir las pruebas es necesario escribir funciones que comiencen con el prefijo *test_*. Es necesario que las llamemos así ya que al momento de ejecutar pytest debemos especificar un directorio raíz, a partir de este directorio pytest leerá todos los archivos buscando funciones que comiencen con *test_*.
+
+He usado *pytest* porque encontré documentación y su uso es bastante fácil y entendible, a parte que es la más conocida y usada para el lenguaje de programación Python.
+
 ## Documentación adicional 
 
 - [¿Por qué he usado estas herramientas?](./docs/herramientas.md)
