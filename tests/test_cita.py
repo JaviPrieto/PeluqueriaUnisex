@@ -6,7 +6,7 @@ from src.cita import Cita
 import pytest
 
 @pytest.fixture
-def cita():
+def cita(): 
     return Cita("UnID","fecha","hora","pelado","tiempo","precio")
 
 
