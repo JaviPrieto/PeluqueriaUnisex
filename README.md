@@ -25,6 +25,18 @@ Los pasos a seguir para desplegar la aplicación son:
 - Base de datos : [MySQL-phpMyAdmin](https://www.phpmyadmin.net/)
 - Servicio de logs : [LogRocket](https://logrocket.com/)
 
+## Herramientas de construcción utilizadas
+
+Justificación del uso de las herramientas de construcción:
+
+**make** es una utilidad disponible en Linux que agiliza la tarea de compilar código desde la terminal. Nos evita tener que escribir los comandos de compilación a mano, que suelen ser muy largos, y en cambio nos permite escribir algo mucho más corto que al final hace lo mismo. Además, make puede hacer muchas otras cosas que harán que preparar las prácticas para enviarlas sea coser y cantar. 
+
+He utilizado un archivo makefile que ejecuta las funciones **main.py** y **test.py** dependiendo como llames a make, make nos ayuda a compilar nuestros programas. Presenta muchas ventajas para programas grandes, en los que hay muchos ficheros repartidos por varios directorios. Principalmente aporta dos ventajas: 
+
+- *Es capaz de saber qué cosas hay que recompilar*. Si cuando estamos depurando nuestro programa tocamos un fichero fuente, al compilar con make sólo se recompilaran aquellos ficheros que dependan del que hemos tocado. Si compilamos a mano con el compilador que sea, o tenemos en la cabeza esas dependencias para compilar sólo lo que hace falta, o lo compilamos todo. Si el proyecto es grande, se nos olvidará alguna dependencia o nos pasaremos horas compilando.
+
+- *Nos guarda los comandos de compilación con todos sus parámetros para encontrar librerías, etc*. No tendremos que escribir largas líneas de compilación con montones de opciones que debemos saber de memoria o, al menos, sólo tendremos que hacerlo una vez
+
 ## Documentación adicional 
 
 - [¿Por qué he usado estas herramientas?](./docs/herramientas.md)
