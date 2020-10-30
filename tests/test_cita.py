@@ -19,7 +19,7 @@ def test_getFecha():
 def test_getHora(): 
     assert cita.getHora() == ""
 
-def test_getPelado():
+def test_getPelado(): 
     assert cita.getPelado() == ""
 
 def test_getTiempo():
