@@ -16,7 +16,7 @@ def test_getID():
 def test_getFecha():
     assert cita.getFecha() == ""
 
-def test_getHora():
+def test_getHora(): 
     assert cita.getHora() == ""
 
 def test_getPelado():
