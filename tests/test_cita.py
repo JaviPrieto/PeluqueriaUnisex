@@ -9,7 +9,7 @@ import pytest
 def cita(): 
     return Cita("UnID","fecha","hora","pelado","tiempo","precio")
 
-
+ 
 def test_getID(): 
     assert cita.getID() == ""
 
