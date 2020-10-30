@@ -10,7 +10,7 @@ def cita():
     return Cita("UnID","fecha","hora","pelado","tiempo","precio")
 
 
-def test_getID():
+def test_getID(): 
     assert cita.getID() == ""
 
 def test_getFecha():
