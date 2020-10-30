@@ -47,8 +47,8 @@ Lo primero que hay que notar es que @pytest.fixture es usado como decorador de�
 
 Cuando ejecutamos pytest, este tratará de resolverlas antes de que se ejecute cualquier prueba que las use, y una ves que estas estén listas, los métodos de prueba reciben los valores especificados en cada método asociado.
 
-**fixture** es una orden de pytest, y es un decorador, por eso lleva la arroba delante. 
-**pytest** es un framework para Python que ofrece la recolección automática de los tests, aserciones simples, soporte para fixtures, debugeo y mucho más…
+- **fixture** es una orden de pytest, y es un decorador, por eso lleva la arroba delante. 
+- **pytest** es un framework para Python que ofrece la recolección automática de los tests, aserciones simples, soporte para fixtures, debugeo y mucho más…
 
 Escribiendo nuestros tests:
 
