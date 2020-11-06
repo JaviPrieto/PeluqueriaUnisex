@@ -73,6 +73,7 @@ Repositorio docker hub: https://hub.docker.com/repository/docker/javiprieto11/pe
 
 - [¿Por qué he usado estas herramientas?](./docs/herramientas.md)
 - [¿Cómo he configurado git?](./docs/configuracion.md)
+- [Rúbricas hito 3](./docs/rubricas_entrega3.md)
 
 ## Historias de usuario
 
