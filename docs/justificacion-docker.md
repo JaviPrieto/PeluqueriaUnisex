@@ -19,6 +19,15 @@ Para minimizar el tamaño de la imagen, es poco común que se incluyan herramien
 
 **python:<version>-windowsservercore** : Esta imagen se basa en Windows Server Core (microsoft / windowsservercore). Como tal, solo funciona en lugares donde esa imagen lo hace, como Windows 10 Professional / Enterprise (Anniversary Edition) o Windows Server 2016.
 
+## Pruebas
 
-Conclusión: He escogido la version python:<version>-alpine, ya que esta versión me ha tardado menos que una slim y no es pesada. 
+| Imagen Usada | Tiempo de Usuario | Tiempo del Sistema | Porcentaje de CPU | Tamaño |
+| -- | -- | -- | -- | -- |
+| python| 0.3s | 0.02s | 1% | 1.169GB |
+| python-alpine| 0.3s | 0.03s | 1% | 341.7MB |
+| python-slim| 0.3s | 0.03s | 1% | 407.2MB |
+
+Atendiendo a los datos extraídos de las distintas ejecuciones, y las buenas prácticas anteriormente mencionadas, la imagen base que usaremos será python-alpine, aparte de por tener el menor tamaño, porque la diferencia de tiempo con python tampoco es grande.
+
+
 
