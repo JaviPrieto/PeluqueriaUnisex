@@ -8,7 +8,8 @@ Una vez registrado, nos vamos a settings -> Linked Accounts & Services, pinchamo
 
 Seguidamente creamos un repositorio con el nombre de nuestro proyecto, eso sí en minuscula porque dockerhub trabaja con lowercase.
 
-![img](https://github.com/JaviPrieto/PeluqueriaUnisex/docs/img/docker-repo.png)
+![Repositorio docker](https://github.com/JaviPrieto/PeluqueriaUnisex/blob/master/docs/img/docker-repo.png)
+
 
 ## Paso 2: Instalar Docker
 
@@ -54,7 +55,7 @@ Verificamos si se ha instalado correctamente:
 
 En el Dockerfile pondremos las ordenes que necesitamos para crear la imagen:
 
-![img](https://github.com/JaviPrieto/PeluqueriaUnisex/docs/img/dockerfile-img.png)
+![img](https://github.com/JaviPrieto/PeluqueriaUnisex/blob/master/docs/img/dockerfile-img.png)
 
 ## Paso 4: Desplegar en Heroku
 
@@ -62,13 +63,15 @@ En el Dockerfile pondremos las ordenes que necesitamos para crear la imagen:
 
 Creamos una aplicación nueva en heroku, a la que llamare contenedor-citas.
 
+![img](https://github.com/JaviPrieto/PeluqueriaUnisex/blob/master/docs/img/heroku-app.png)
+
 Creamos el archivo heroku.yml para que cree la imagen desde el dockerfile.
 
 	build:
 	  docker:
 	    web: Dockerfile
 	run:
-	  web: cd src && **gunicorn** main.py
+	  web: cd src && gunicorn main.py
 
 Si no funciona con **gunicorn** ponemos **python**.
 
