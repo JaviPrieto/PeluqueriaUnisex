@@ -1,4 +1,7 @@
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![Build Status](https://travis-ci.org/toniMR/Proyecto-IV.svg?branch=master)](https://travis-ci.org/toniMR/Proyecto-IV)
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://proyecciones-cine.herokuapp.com/)
+
 
 # Peluqueria Unisex
 Proyecto para la asignatura de Infraestructura Virtual de 4º curso de Ingeniería Informática
