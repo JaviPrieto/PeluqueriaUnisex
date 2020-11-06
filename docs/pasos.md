@@ -30,4 +30,13 @@ En este documento se plantea de forma general la implementación del servicio de
 4. Actualizar el fichero iv.yaml y el README.md
 5. Modificar hito-2.md y hacer un PR.
 
+## Pasos realizados en el hito3
+
+1. Elegir el contenedor base.
+2. Crear el Dockerfile.
+3. Subir el contenedor a DockerHub y documentar la actualización automática.
+4. Usar registros alternativos y públicos (Heroku).
+5. Comparar distintas imágenes para dar con la óptima para nuestro contenedor y documentarlo.
+
+
 
