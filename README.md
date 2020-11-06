@@ -59,6 +59,14 @@ Para escribir las pruebas es necesario escribir funciones que comiencen con el p
 
 He usado *pytest* porque encontré documentación y su uso es bastante fácil y entendible, a parte que es la más conocida y usada para el lenguaje de programación Python.
 
+## Docker
+
+[Documentación-Docker](https://github.com/JaviPrieto/PeluqueriaUnisex/blob/master/docs/configuracionDocker.md)
+
+Contenedor : https://contenedor-citas.herokuapp.com/
+
+Repositorio docker hub: https://hub.docker.com/repository/docker/javiprieto11/peluqueriaunisex
+
 ## Documentación adicional 
 
 - [¿Por qué he usado estas herramientas?](./docs/herramientas.md)
