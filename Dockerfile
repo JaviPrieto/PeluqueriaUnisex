@@ -16,4 +16,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 EXPOSE 80
 
 # Lanzamos la aplicación
-CMD [ "python", "./src/main.py ]
+CMD [ "python", "./src/main.py" ]
