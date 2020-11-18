@@ -4,7 +4,7 @@
 
 
 # Peluqueria Unisex
-Proyecto para la asignatura de Infraestructura Virtual de 4º curso de Ingeniería Informática
+Proyecto para la asignatura de Infraestructura Virtual de 4º curso de Ingeniería Informática 
 
 ## Descripción de funcionalidad
 
