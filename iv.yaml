@@ -1,4 +1,4 @@
-entidad: src/cita.py
+entidad: app/src/cita.py
 lenguaje: python
 test: tests/test_cita.py
 taskfile: Makefile
