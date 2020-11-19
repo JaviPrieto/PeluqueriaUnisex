@@ -1,0 +1,14 @@
+languaje: python
+
+python:
+  - "3.7"
+  - "3.8"
+
+before_install:
+  - pip install --no-cache-dir -r requirements.txt
+
+install:
+  - cd src; python cita.py
+
+script: make test
+
