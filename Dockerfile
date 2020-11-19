@@ -4,7 +4,7 @@ FROM python:3
 MAINTAINER javiprieto16@gmail.com
 
 # Establecer directorio 
-WORKDIR app/src/
+WORKDIR src/
 
 # Copiar contenido
 COPY . .
