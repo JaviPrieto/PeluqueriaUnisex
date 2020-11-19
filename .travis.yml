@@ -7,7 +7,7 @@ before_install:
   - pip install --no-cache-dir -r requirements.txt
 
 install:
-  - cd src; python cita.py
+  - cd app/src; python cita.py
 
 script: make test
 
